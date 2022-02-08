@@ -6,10 +6,16 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{A3394C17-8DEF-47B7-B419-DAF216983449}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewConsole", "ViewConsole\ViewConsole.csproj", "{86B1B7B6-7489-49A2-908E-619A89F2BCA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A3394C17-8DEF-47B7-B419-DAF216983449} = {A3394C17-8DEF-47B7-B419-DAF216983449}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BD", "BD\BD.csproj", "{7E04ECC4-F810-45FE-B9DA-B615CA6D7495}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF", "WF\WF.csproj", "{FE9F8A23-DE18-4636-B93E-1AF9545C6904}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E04ECC4-F810-45FE-B9DA-B615CA6D7495} = {7E04ECC4-F810-45FE-B9DA-B615CA6D7495}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
