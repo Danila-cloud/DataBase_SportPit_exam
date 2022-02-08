@@ -1,4 +1,5 @@
 ﻿using System;
+using ViewConsole.Views;
 
 namespace ViewConsole
 {
@@ -6,7 +7,8 @@ namespace ViewConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Views.User u = new User();
+            u.Register();
         }
     }
 }
