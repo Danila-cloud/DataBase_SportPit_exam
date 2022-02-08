@@ -16,6 +16,7 @@ namespace WF
     {
         public System.Guid Id { get; set; }
         public string Name { get; set; }
+        public System.Guid CategoriesId { get; set; }
         public Nullable<decimal> Price { get; set; }
         public string Description { get; set; }
         public int Quantity { get; set; }
