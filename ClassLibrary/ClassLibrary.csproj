@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\Auth\" />
     <Folder Include="Entities\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Helpers\Checked\" />
     <Folder Include="Models\" />
   </ItemGroup>
